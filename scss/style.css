@@ -1,0 +1,415 @@
+body{
+  margin: 0px;
+}
+
+.alpha{
+  width: 100%;
+  height: 400px;
+  background: url(../img/header.jpg); 
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body header{
+  width: 100%;
+  height: 200px;
+  background: url(../img/header.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body header .contenedor-header{
+  background: rgba(255, 255, 255, 0.1);
+  color: aliceblue;
+  border-radius: 15px;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+body header .contenido-header {
+  background: #2e3439;
+  border-radius: 15px;
+  padding: 10px 20px;
+  border-color: #090a0a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+body header .contenedor-header ul > li {
+  display: inline-block;
+  margin: 0px 12px;
+}
+
+.contenedor-main {
+  width: 70%;
+  color: aliceblue;
+  border-style: solid none;
+  border-color: #b6b6b6;
+  border-width: 1px;
+  padding: 10px 0px;
+  margin: auto;
+  text-align: center;
+}
+
+.contenido-texto {
+  border-style: solid none;
+  border-color: #b6b6b6;
+  border-width: 1px;
+  text-transform: uppercase;
+}
+
+.contenedor-main2 {
+  width: 50%;
+  color: aliceblue;
+  padding: 10px 0px;
+  margin: 4% auto;
+}
+
+.contenedor-main2 .contenido-pregunta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.boton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  width: 25%;
+  background: #3579a0;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+/*seccion2*/
+.row{
+  background-color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.artic{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+.col-4{
+  width: 33.33%;
+}
+
+.col-4>img{
+  width: 80%;
+  height: 80%;
+}
+
+
+
+.seccion-2-titulo{
+  color: #2e2e32;
+  margin: 3em 0 7em 80px;
+  border-bottom: gray 10px double;
+}
+
+.seccion-2-titulo::after{
+  content: '';
+  display: block;
+  height: 8px;
+  margin: 10px auto;
+}
+
+.seccion-2-titulo>h2{
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+}
+
+.seccion-2-titulo>p{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 00;
+  letter-spacing: 0.07em;
+  margin-bottom: 1.5em;
+}
+
+/*img*/
+
+.sec2div{
+  margin: 0 1.5em;
+}
+
+.sec2div>a>img{
+  border-radius: 8px;
+  width: 100%;
+}
+
+/*seccion3*/
+.seccion-3{
+  background-color: white;
+}
+
+.cards{
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.cards .card{
+  height: 400px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.cards .card > .contenido-cards{
+  width: 80%;
+  color: black;
+  border-bottom: gray 5px double;
+}
+
+.cards .card > .contenido-cards h4{
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+}
+
+.cards .card > .contenido-cards h5{
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.cards .card > .contenido-cards2{
+  width: 80%;
+  color: black;
+}
+
+.cards .card > .contenido-cards2 p{
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.boton2 {
+  display: flex;
+  color: white;
+  width: 50%;
+  margin: 50px;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  background: #3579a0;
+  border-radius: 10px;
+  padding: 0 30px 0 30px;
+}
+
+.boton3 {
+  display: flex;
+  color: white;
+  width: 50%;
+  margin: 50px;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  background: rgb(54, 53, 53);
+  border-radius: 10px;
+  padding: 0 30px 0 30px;
+}
+
+/*Seccion 4*/
+
+.content-art{
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+.articulos{
+  width: 66.66%;
+}
+
+.articulo{
+  width: 33.33%;
+}
+
+.titulo{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  text-transform: uppercase;
+  color: #252527;
+  font-size: 1.5em;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+}
+
+.box{
+  padding-bottom: 0.5em;
+  border-bottom: solid 1px rgb(216, 210, 210);
+  margin-right: 5%;
+}
+
+.box-ultimo{
+  border: none;
+}
+
+.box>a{
+  width: 15%;
+  float: left;
+  margin-right: 3%;
+}
+
+.box>a>img{
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.box2>a>img{
+  width: 40%;
+  border-radius: 8px;
+  Overflow: hidden;
+  position:relative;
+}
+
+.box>div{
+  text-align: left;
+}
+
+.box>div>h5, .box2>div>h5{
+  text-transform: uppercase;
+  color: #5a5a61;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+}
+
+
+.box>div>h3, .box2>div>h3{
+  text-transform: uppercase;
+  color: #353538;
+  font-size: 1.3em;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+}
+
+.box>div>p, .box2>div>p{
+  padding: 1em 0;
+  text-transform: uppercase;
+  color: #828288;
+  font-size: .7em;
+  letter-spacing: .2em;
+}
+
+/*seccion 5*/
+
+.seccion-5{
+  background-color: rgb(17, 17, 17);
+  position: relative;
+  background-repeat: repeat-x, no-repeat, repeat;
+  background-size: 100% 100%, 100% 15em, auto auto;
+  background-position: top left, top center, top left;
+}
+
+.row2{
+  background-color: rgb(17, 17, 17);
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row2 > * {
+  padding: 50px 0 0 50px;
+}
+
+.col1{
+  width: 20%;
+}
+
+.col2{
+  width: 20%;
+}
+
+.col3{
+  width: 40%;
+}
+
+ul{
+  list-style: none;
+  color: whitesmoke;
+}
+
+ul.divided li {
+  border-top: solid 1px #eee;
+  padding: 0.5em 0 0 0;
+  margin: 0.5em 0 0 0;
+}
+
+ul.divided li:first-child {
+  border-top: 0 !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+ul.divided li a {
+  text-decoration: none;
+}
+
+a {
+  color: #acb2bf;
+}
+
+section, article {
+  margin-bottom: 5em;
+}
+
+dl.contact dt {
+  color: #ddd;
+}
+
+dl.contact dt {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.065em;
+  font-size: 0.9em;
+  color: #696969;
+  float: left;
+  width: 6em;
+}
+
+dl.contact dd {
+  margin: 0 0 1em 6em;
+}
